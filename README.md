@@ -1,5 +1,4 @@
 # CONSOLE CASINO
-
 ## DESCRIPTION:
 This application is a text-based game consistent of Blackjack and Five-Card Poker, meant to be an academic demonstration of a union between Procedural and Object-Oriented Programming.
 ### Procedural Programming Principles Used
