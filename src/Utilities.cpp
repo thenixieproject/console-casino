@@ -87,8 +87,8 @@ void dealOneCard(std::vector<std::unique_ptr<Card>> hand, std::array<std::unique
  * @param hand The hand to be displayed
  */
 void displayHand(std::vector<std::unique_ptr<Card>> hand) {
-    for (int i = 0; const auto& card : hand) {
-        std::cout << card->getValue() << " ";
+    for (int i = 0; i < hand.size(); i++) {
+        std::cout << hand[i].getValue() << " ";
     }
 }
 
